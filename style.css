@@ -1,0 +1,115 @@
+@font-face {
+  font-family: "fixel";
+  src: url("font/fixelbold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "fixel";
+  src: url("font/fixelregular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+body {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+h1 {
+  font-family: "fixel", sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  text-align: center;
+  color: #3e4edb;
+}
+
+h3{ 
+  font-family: "fixel";
+  font-weight: 700;
+  color: #3e4edb;
+
+}
+p {
+  font-family: "fixel";
+  font-weight: 400;
+  color: #525252;
+  font-size: 16px;
+margin-top: -10px;
+
+}
+.profile-photo {
+  width: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 40px auto 24px;
+}
+
+.info {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 900px;
+  margin: 40px auto;
+
+}
+.info-text {
+max-width: 500px;
+text-align: left;
+}
+
+.info-photo {
+display: flex;
+gap: 10px;
+}
+.info-photo img {
+  width: 120px;
+border-radius: 12px;
+object-fit: cover;
+margin: 0;
+}
+
+.contact {
+  max-width: 500px;
+  margin-left: 40px
+}
+.contact h3 {
+margin-bottom: 10px;
+}
+.contact ul {
+  list-style-type: none;  
+  padding-left: 0;        
+  margin-top: 0;
+}
+.contact li {
+  margin-bottom: 5px;   
+   font-family: "fixel";
+  color: #525252;
+  font-size: 16px; 
+}
+.contact a {
+  text-decoration: none; 
+  color: #3e4edb;
+}
+
+
+@media (max-width: 768px) {
+.info {
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 20px auto ;
+}
+}
+.info-photo {
+  margin-top: 10px;
+  width: 100%;
+  justify-content: left
+}
+ul {
+  font-family: "fixel";
+  color: #525252;
+font-size: 16px ;
+}
