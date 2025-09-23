@@ -113,3 +113,22 @@ ul {
   color: #525252;
 font-size: 16px ;
 }
+.photo-a img {
+border-radius: 12px ;
+margin: 3px;
+}
+.portfolio-photo img {
+  border-radius: 12px ;
+margin: 3px;
+}
+.page-nav {
+  text-align: center;
+  margin-bottom: 80px;
+}
+.page-nav a {
+  font-family: "fixel";
+  font-size: 16px;
+  font-weight: 700;
+  color: #3e4edb;
+  margin: 0 15px;
+}
