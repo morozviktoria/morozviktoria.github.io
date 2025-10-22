@@ -11,10 +11,8 @@
   font-style: normal;
 }
 body {
-  max-width: 900px;
   margin: 0 auto;
-  padding: 0 10px;
-  background-color: rgb(227, 238, 255);
+  background-color: rgb(225, 224, 255);
 }
 
 h1 {
@@ -29,7 +27,8 @@ h3{
   font-family: "fixel";
   font-weight: 700;
   color: #3e4edb;
-
+  margin-top: 80px;
+  scroll-margin-top: 100px;
 }
 p {
   font-family: "fixel";
@@ -37,6 +36,7 @@ p {
   color: #525252;
   font-size: 16px;
 margin-top: -10px;
+text-align: justify;
 
 }
 .profile-photo {
@@ -49,26 +49,29 @@ margin-top: -10px;
 
 .info {
   display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
+  align-items: flex-end;
   max-width: 900px;
   margin: 40px auto;
+gap: 20px;
 
 }
 .info-text {
-max-width: 500px;
 text-align: left;
 }
-
+.info-text h3{
+  margin-top: 0;
+}
 .info-photo {
 display: flex;
 gap: 10px;
+align-self: flex-start;
 }
 .info-photo img {
   width: 120px;
 border-radius: 12px;
 object-fit: cover;
 margin: 0;
+
 }
 
 .contact {
@@ -132,4 +135,46 @@ margin: 3px;
   font-weight: 700;
   color: #3e4edb;
   margin: 0 15px;
+}
+
+.header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+background: #ced6ff;
+margin: 0%;
+position: sticky;
+top: 0;
+z-index: 1000;
+
+}
+
+.logo {
+color:#ced6ff ;
+font-weight: bold;
+font-size: 20px;
+font-family: "fixel";
+padding: 10px 10px;
+background: #3e4edb;
+text-decoration:none 
+}
+
+.menu-item {
+
+  color: #3e4edb;
+  text-decoration: none;
+  padding: 10px;
+  font-family: fixel;
+  font-weight: bold ;
+  font-size: 16px;
+}
+
+.menu-item:hover {
+color: #727cff;
+transition: 0.5s;
+}
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+padding: 0 10px;
 }
